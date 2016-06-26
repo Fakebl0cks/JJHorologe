@@ -1,0 +1,159 @@
+body {margin:0;}
+
+html,
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: black;	
+}
+
+h2.first {
+	display: inline-block;
+	color: #9F8170;
+	margin-top:0;
+	padding-top:15px;
+	padding-left: 600px;
+}
+
+h2.lastTitle{
+	display: inline-block;
+	color: #9F8170;
+	margin-top:0;
+	padding-top:0;
+	padding-right: 12px;
+}
+
+h2.spacer{
+	display: inline-block;
+	margin-top:0;
+	padding-top:0;
+	color: black;
+}
+
+H2 {
+	display: inline-block;
+	color: #FFD700;
+	margin-top:15px;
+	padding-top:0;
+}
+
+.mainMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B1B1B;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	height: 60px;
+}
+
+.mainMenu li {
+    float: left;
+}
+
+.mainMenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 18px 50px;
+	font-size:20px;
+    text-decoration: none;
+}
+
+.mainMenu li a:hover {
+    background-color: 	grey;
+}	
+
+.mainMenu  li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: grey;
+}
+
+.jumboT {
+	padding-top:150px;
+	text-align: center;
+}
+
+.jumboT h4{
+	color: white;
+	font-size:30px;
+	margin-bottom:0px;
+}
+
+.jumboT h2{
+	margin:0;
+	padding:0;
+	color: #9F8170;
+	font-size:80px;
+}
+
+.jumboT h1{
+	margin:0;
+	padding:0;
+	color: white;
+	font-size:60px;
+}
+
+.jumboT h5{
+	color: white;
+	padding-top:20px;
+	font-size:20px;
+}
+
+.jumboT table{
+	margin-left:380px;
+	border-collapse: collapse;
+}
+
+.jumboT td{
+	padding-top:30px;
+}
+
+
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* /* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+.apPreview{
+	padding-right:0px;
+}
